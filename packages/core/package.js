@@ -6,11 +6,8 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.4.0.1');
 
-  api.use([
-    'coffeescript',
-  ]);
-
   api.addFiles([
-    'test.coffee'
+    'test.js'
   ], 'client');
+
 });
